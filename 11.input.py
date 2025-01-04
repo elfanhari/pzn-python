@@ -1,5 +1,7 @@
 # Belajar Input Data
 
-print("Silakan masukkan nama")
+print("Silakan masukkan nama Anda!")
 nama = input()
-print(f"Halo, {nama}!, selamat datang di toko ajoz")
+print(f"Berapa umur {nama}?")
+umur = int(input())
+print(f"Halo, {nama}!, umur anda {umur} tahun")
